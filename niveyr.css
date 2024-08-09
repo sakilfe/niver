@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 500px){
     body{
         background-image: url(fundotdm.png);
         background-size: cover;
