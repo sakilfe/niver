@@ -22,7 +22,7 @@
         justify-content: center;
         align-items: center;
         padding: 1em 2em 0 2em;
-        background-color: white;
+        background-color: white!important;
         width: 85%;
         border-top: 0.7em solid #0F9E4D;
         border-right: 0.7em solid #FAEE03;
