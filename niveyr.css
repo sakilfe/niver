@@ -13,7 +13,7 @@
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        padding: 1em 0; /* Espaçamento do fundo */
+        padding: 0.8em 0; 
     }
 
     main {
