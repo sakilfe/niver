@@ -1,32 +1,36 @@
-*{
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-@media screen and (max-width: 500px){
-    body{
+
+@media screen and (max-width: 500px) {
+    body {
         background-image: url(fundotdm.png);
         background-size: cover;
         background-repeat: repeat;
-        /* display: flex; */
-    }
-    main{
         display: flex;
-        flex-wrap: wrap;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
+        min-height: 100vh;
+        padding: 1em 0; /* Espaçamento do fundo */
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 2em 0 2em;
         background-color: white;
-        width: 80%;
+        width: 85%;
         border-top: 0.7em solid #0F9E4D;
         border-right: 0.7em solid #FAEE03;
         border-bottom: 0.7em solid #4074BC;
         border-left: 0.7em solid #E71A1C;
     }
-    h1{margin: 0.6em 0 0.2em 0;}
+
+    h1{margin: 0.2em 0;}
     h1 figure img{
         display: flex;
         /* justify-content: center; */
@@ -35,35 +39,39 @@
         max-height: 15%;
         margin: 0 auto;
     }
-    #niver{margin-bottom: 2.8em;}
-    #niver img{
+    #niver {
+        margin-bottom: 2.3em;
+        width: 100%;
         display: flex;
-        /* justify-content: center; */
-        /* align-items: center; */
+        justify-content: center;
+    }
+    #niver img {
+        max-width: 70%;
+        max-height: 16%;
+    }
+
+    #infos {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #infos img {
         max-width: 60%;
-        max-height: 15%;
-        margin: 0 auto;
-    }
-    #infos img{
-        display: flex;
-        /* justify-content: center; */
-        /* align-items: center; */
-        max-width: 58%;
         max-height: 20%;
-        margin: 0 auto;
     }
-    #local{
+    #local {
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        margin: 1.6em 3em;
+        margin: 0.8em 3em 1.5em;
+        padding: 0 1em;
+        width: 100%;
     }
-    #local img{
-        max-width: 11%;
-        max-height: 16%;
+    #local img {
+        max-width: 16%;
+        max-height: 21%;
     }
-    #localizacao{
-        /* max-width: 60%; */
+    #localizacao {
         height: 10%;
         background-image: url(fam.png);
         background-size: cover;
@@ -72,49 +80,49 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
-    iframe{
-        padding: 1em;
-        width: 80%!important;
-        height: 8em!important;
+    iframe {
+        padding: 1em 0.6em;
+        width: 87%!important;
+        height: 7em!important;
     }
-    #final{
+
+    #final {
         display: flex;
         justify-content: center;
         align-items: flex-end;
         margin: 0.8em 0 1em 0;
+        width: 100%;
     }
-    #final img{
-        max-width: 50%;
-        max-height: 20%;
+    #final img {
+        max-width: 60%;
+        max-height: 28%;
     }
-    #final a{
-        max-width: 25%;
-    }
-    #final button{
+    #final a {width: 40%;}
+    #final button {
         display: flex;
         background-color: #224A84;
         border-radius: 0.3em;
         align-items: center;
         justify-content: center;
-        padding: 0.4em 0.1em;
+        padding: 0.35em 0;
+        width: 90%;
     }
-    #final button img{
-        width: 24em;
-        height: 0.5em;
+    #final button img {
+        width: 80%;
+        height: auto;
     }
-    button:hover{
-      cursor: pointer;
-    }
-    footer{
-        margin: 0 0 0.5em 0;
-    }
-    footer img{
+    button:hover {cursor: pointer;}
+    
+    footer {
+        margin: 0.5em 0;
+        width: 100%;
         display: flex;
-        /* justify-content: center; */
-        /* align-items: center; */
+        justify-content: center;
+    }
+    footer img {
         max-width: 78%;
         max-height: 65%;
-        margin: 0 auto;
     }
 }
